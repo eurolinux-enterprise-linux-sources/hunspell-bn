@@ -3,7 +3,7 @@
 Name: hunspell-bn
 Summary: Bengali hunspell dictionaries
 Version: %{upstreamver}
-Release: 3%{?dist}
+Release: 4%{?dist}
 Epoch: 1
 Group:          Applications/Text
 Source: http://sourceforge.net/projects/bengalinux/files/bengali-spellcheck/%{name}-%{version}.tar.bz2
@@ -50,6 +50,9 @@ popd
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.06-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.06-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
